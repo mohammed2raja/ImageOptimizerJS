@@ -1,0 +1,22 @@
+{
+  "name": "imageoptimizerjs",
+  "version": "1.0.0",
+  "description": "JavaScript Function for Image Optimization",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "terser": "^5.36.0",
+    "webpack": "^5.95.0"
+  }
+}
