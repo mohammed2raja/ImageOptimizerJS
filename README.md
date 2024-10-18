@@ -14,3 +14,9 @@ The `optimizeImage` function takes an image file, maximum width, maximum height,
 
 ```javascript
 optimizeImage(file, maxWidth, maxHeight, quality) => Promise<string>
+```
+
+
+## Examples
+
+-[Example 1 - Upload and Optimize](https://mohammed2raja.github.io/ImageOptimizerJS/) - Try uploading and optimizing an image in real-time.
