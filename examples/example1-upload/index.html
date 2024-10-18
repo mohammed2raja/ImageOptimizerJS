@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageOptimizerJS - Real-Time Optimization Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ImageOptimizerJS</h1>
+        <p>Optimize your images in real-time with adjustable width, height, and quality settings. Download the optimized image when you're ready!</p>
+        
+        <div class="content">
+            <div class="controls">
+                <input type="file" id="image-input" class="input-file" />
+                <label for="width-input">Width:</label>
+                <input type="number" id="width-input" placeholder="Width (px)" class="input-number" />
+                
+                <label for="height-input">Height:</label>
+                <input type="number" id="height-input" placeholder="Height (px)" class="input-number" />
+                
+                <label for="quality-input">Quality (0-1):</label>
+                <input type="number" id="quality-input" min="0" max="1" step="0.1" value="0.8" class="input-number" />
+                
+                <div id="optimization-info" class="optimization-info"></div>
+                
+                <button id="download-btn" class="button" disabled>Download Optimized Image</button>
+            </div>
+            
+            <div class="preview">
+                <div id="image-container" class="image-container"></div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
