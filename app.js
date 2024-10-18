@@ -1,4 +1,4 @@
-import { optimizeImage } from '../../src/image-optimizer.js';
+import { optimizeImage } from 'src/image-optimizer.js';
 
 const fileInput = document.querySelector("#image-input");
 const widthInput = document.querySelector("#width-input");
